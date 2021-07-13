@@ -19,7 +19,7 @@
         <div class="lg:w-3/4 px-10">
         <div class="flex">
           <i class='bx bxs-quote-alt-left lg:text-5xl text-indigo-600'></i>
-          <div class="flex-grow text-gray-500 text-sm leading-7 px-5 mt-5">
+          <div class="flex-grow text-gray-500 leading-7 px-5 mt-5">
             My name is <b>Catalina Fernandez</b>, i am 18 years old, i live in Argentina, sadly i have no cats;
             Im a Software Developer and a passionate UI Designer.
             I have been interested in software since im 12 years old and i've been working as a Software Developer since 16.
@@ -104,8 +104,9 @@ export default {
 }
 .welcome {
   background-image: url('~@/assets/wave.svg');
-  background-position: bottom;
-  background-position-y: 40vh;
+  background-position: center;
+  background-position-y: 20vh;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 </style>
